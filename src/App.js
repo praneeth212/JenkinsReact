@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import CrudOperations from './CRUD/crudOperations';
+import Component1 from './UseContext/myComponent';
+import MyComponent from './UseContext/myComponent';
+import YourComponent from './UseContext/yourComponent';
+import CrudEmp from './Assignment CRUD/crudEmp';
+import CrudEmp1 from './Assignment CRUD/crudEmp1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <CrudOperations /> */}
+    {/* <MyComponent />
+    <YourComponent /> */}
+    <CrudEmp1 />
     </div>
+    
   );
 }
 
